@@ -110,7 +110,7 @@ class _TranslatorScreenState extends State<TranslatorScreen> {
 
     // Gemini API endpoint and payload structure
     const String apiKey =
-        "AIzaSyChyawjayJJep2IuYOMerGwtXdg51TxgJ4"; // Dibiarkan kosong sesuai pengaturan environment
+        ""; // Dibiarkan kosong sesuai pengaturan environment
     final String apiUrl =
         'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=$apiKey';
     final payload = {
@@ -300,3 +300,4 @@ class _TranslatorScreenState extends State<TranslatorScreen> {
     );
   }
 }
+
